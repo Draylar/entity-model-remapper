@@ -1,0 +1,19 @@
+textarea {
+    width: 100%;
+    height: auto;
+    resize: none;
+}
+
+.topbar {
+    margin-top: 35px;
+}
+
+.description {
+    font-style: italic;
+}
+
+#responseLabel {
+    opacity: 0;
+    transition: 1s opacity;
+    color: green;
+}

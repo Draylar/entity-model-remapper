@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Entity Model Remapper</title>
+  <meta name="description" content="A simple site used to convert between 1.15 MCP and Yarn entity model files.">
+  <meta name="author" content="Draylar">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.ico">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <!-- <div class="row">
+      <div class="one-half column" style="margin-top: 25%">
+        <h4>Basic Page</h4>
+        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
+      </div>
+    </div> -->
+
+    <div class="row topbar">
+      <div class="eleven columns"><h4 class="title">Entity Model Remapper</h4></div>
+      <div class="one columns"><a href="https://github.com/Draylar/entity-model-remapper"><img src="images/github_favicon.png" alt="GitHub" width="48"></a></div>
+    </div>
+    
+    <p class="description">A simple tool by <a href="https://github.com/Draylar">Draylar</a>. Best used with <a href="https://blockbench.net/">Blockbench</a>.</p>
+
+    <textarea name="Input Log" id="input" cols="40" rows="25" placeholder="Paste your exported 1.15 entity model code here..."></textarea>
+
+    <div class="row">
+      <input type="button" value="To Yarn" id="toYarn">
+      <input type="button" value="To MCP" id="toMCP">
+      <p id="responseLabel">Success!</p>
+    </div>
+  </div>
+
+  <!-- Javascript
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="js/script.js"></script>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
